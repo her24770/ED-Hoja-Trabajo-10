@@ -4,13 +4,10 @@ import static org.junit.Assert.*;
 import java.util.Map;
 
 public class GrafoFloydTest {
-    private GrafoFloyd grafo;
+    
     private String[] ciudades = {"A", "B", "C", "D"};
-
-    @Before
-    public void setUp() {
-        grafo = new GrafoFloyd(ciudades);
-    }
+    GrafoFloyd grafo = new GrafoFloyd(ciudades);
+    
 
     // Pruebas para la construcción inicial del grafo
     @Test
