@@ -1,3 +1,9 @@
+/**
+ * Universidad del Valle de Guatemala
+ * Estructura de Datos
+ * @author Josue Hernández González
+ * Hoja de trabajo #10
+ */
 public class Main {
     public static void main(String[] args) {
         // Crear el grafo con los nodos A, B, C, D, E

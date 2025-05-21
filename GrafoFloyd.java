@@ -111,14 +111,4 @@ public class GrafoFloyd {
             System.out.println();
         }
     }
-    
-    // Método para obtener la matriz de adyacencia
-    public int[][] getMatrizAdyacencia() {
-        return matrizAdyacencia;
-    }
-    
-    // Método para obtener los índices de las ciudades 
-    public Map<String, Integer> getIndices() {
-        return indices;
-    }
 }
