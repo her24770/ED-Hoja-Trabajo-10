@@ -103,7 +103,7 @@ public class GrafoFloyd {
             System.out.printf("%4s", ciudades[i]);
             for (int j = 0; j < matriz[i].length; j++) {
                 if (matriz[i][j] == Integer.MAX_VALUE) {
-                    System.out.print("  ∞ ");
+                    System.out.print("   -");
                 } else {
                     System.out.printf("%4d", matriz[i][j]);
                 }
@@ -111,4 +111,11 @@ public class GrafoFloyd {
             System.out.println();
         }
     }
+
+    // Método getter para la matriz de adyacencia
+    public int[][] getMatrizAdyacencia() {
+        return matrizAdyacencia;
+    }
+    
+    
 }
